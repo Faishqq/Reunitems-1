@@ -3,7 +3,7 @@ import { Button } from "@/components/Button";
 
 export default function Home() {
   return (
-    <div className="bg-bg-blue min-h-screen">
+    <div className="bg-white min-h-screen">
       <main>
         <div 
           className="w-full bg-cover bg-center bg-no-repeat"
@@ -18,7 +18,7 @@ export default function Home() {
             <h1 className="text-8xl sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] font-bold px-8 py-4 rounded-lg"> 
               ReunItems 
             </h1>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl ml-2 font-bold">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl ml-2 font-bold text-blue-700">
               Find your lost items on your local campus.
             </h1>
 
@@ -30,7 +30,7 @@ export default function Home() {
               <Button 
                 variant="primary" 
                 href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                color1="#5f9cff"
+                color1="#0e004c"
                 color2="#1e40af"
               >
                 Find Your School
@@ -39,8 +39,8 @@ export default function Home() {
               <Button
                 variant="primary" 
                 href="https://hack.club"
-                color1="#8b5cf6"
-                color2="#7c3aed"
+                color1="#5c95f6"
+                color2="#3a5bed"
               >
                 Sign Up Your School Lost&Found
               </Button>
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         
         <div className="flex flex-col lg:flex-row gap-6 ml-5 mr-5 mt-8">
-          <div className="lg:w-[55%] w-full">
+          <div className="lg:w-[55%] w-full bg-brand-blue">
             <h3 className="font-bold text-3xl mt-4">Lost something important? Found an item that belongs to someone else? You're in the right place.</h3>
             <p className="text-3xl mt-4">Our smart lost and found platform makes it easier than ever to recover lost belongings and return found items to their rightful owners. Whether you dropped your keys on campus, left your laptop in a coffee shop, or found someone's wallet – we're here to help reconnect people with their possessions.</p>
           </div>
@@ -67,15 +67,6 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-6 ml-5 mr-5 mt-8">
-          <div className="lg:w-[55%] w-full">
-            <h3 className="font-bold text-3xl mt-4">How It Works:</h3>
-            <p className="text-2xl mt-4">Lost Something?: Search our database of found items, submit a detailed claim with photos for proof of ownership, and get notified when there's a match. Our smart search even recognizes common misspellings, so you won't miss your item because of a typo.</p>
-            <p className="text-2xl mt-4">Found Something?: Quickly report found items with photos and descriptions. Good Samaritans like you help make our community a better place – we'll handle connecting items with their owners.</p>
-            <p className="text-2xl mt-4">
-              Why Choose Us?
-              Smart Search Technology | Map Features | Photo Verification | Admin-Verified Process | Multi-Platform Access | Simple UI
-            </p>
-          </div>
           <div className="lg:w-[45%] w-full">
             <div className="w-full h-[300px] lg:h-[400px] overflow-hidden">
               <Image 
@@ -86,6 +77,15 @@ export default function Home() {
                 className="w-full h-full object-cover"
               />
             </div>
+          </div>
+          <div className="lg:w-[55%] w-full bg-brand-sky">
+            <h3 className="font-bold text-3xl mt-4">How It Works:</h3>
+            <p className="text-2xl mt-4">Lost Something?: Search our database of found items, submit a detailed claim with photos for proof of ownership, and get notified when there's a match. Our smart search even recognizes common misspellings, so you won't miss your item because of a typo.</p>
+            <p className="text-2xl mt-4">Found Something?: Quickly report found items with photos and descriptions. Good Samaritans like you help make our community a better place – we'll handle connecting items with their owners.</p>
+            <p className="text-2xl mt-4">
+              Why Choose Us?
+              Smart Search Technology | Map Features | Photo Verification | Admin-Verified Process | Multi-Platform Access | Simple UI
+            </p>
           </div>
         </div>
           <h1 className="text-5xl text-bold mt-8 ml-5 mr-5 mb-8 text-center">Don't let lost items stay lost. Start your search or report a found item today!</h1>
